@@ -1,0 +1,1 @@
+CREATE TABLE `scores` (`nickname` VARCHAR(30) NOT NULL,`score` INT(255),PRIMARY KEY (`nickname`));
