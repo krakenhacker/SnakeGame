@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="snake.js"></script>
+    <script src="submit.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<h3 style="text-align:center;">Score</h3>
+<span style="margin-left:50%" id="score"></span></h1>
+<div style="text-align: center">
+<canvas style="border: orange 2px solid" id="gc" width="625" height="625"></canvas>
+</div>
+<h2 style="text-align:center;">Highest Score</h2>
+<span style="margin-left:50%;font-size: 20px;" id="highscore"></span>
+<div style="text-align: center; margin-top: 2rem;">
+<form id="scoreform" >
+    <input type="text" id="nickname" name="name" placeholder="Type your nickname" required><br><br>
+    <input style="display: none" type="number" id="formhighscore" name="highscore" readonly>
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
